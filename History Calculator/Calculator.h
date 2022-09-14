@@ -24,5 +24,4 @@ void CUI() // inter face for calculator
     cout<<"\t 11. Log  "<<endl;
     cout<<"\t 12. Square Root  "<<endl;
     cout<<"\t 13. Power   "<<endl;
-    
 }
