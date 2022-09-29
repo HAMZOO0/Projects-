@@ -51,7 +51,9 @@ int main(int argc, char const *argv[])
 {
      cout << "\nDeveloper Name Hamza Sajid \n";
      cout << "29/09/2022\n";
+
      int Number_of_Blocks = 0;
+
      cout << "\nNumber of Blocks :: ";
      cin >> Number_of_Blocks;
 
@@ -68,7 +70,7 @@ void BlockChain(int No_block)
      long int Hash = 1111111111;  // here we set hash 1111111111
      static int Block_number = 0; // here we have blocks number
 
-     int temp=000000001 ; 
+     int temp=000000001 ;   // temp variable use to store Previous block hash 
 
      for (int i = 0; i < No_block; i++) // this loop print all blocks data depends upon how much blocks we want to print
      {
@@ -93,3 +95,4 @@ void BlockChain(int No_block)
 }
 
 // asctime(localtime(&timetoday)); current time
+//This is just a model project , programming beginners can understand how Block chain actually works in just simple way  
