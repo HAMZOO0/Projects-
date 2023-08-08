@@ -1,0 +1,27 @@
+*{
+    box-sizing: border-box;
+    margin: 0%;
+    padding: 0%;
+    border-color: black ;
+}
+li , a , button {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     font-weight: 400 ; 
+     font-size: 16px;
+     color: #edf0f1;
+     text-decoration: none;
+     background-color: black;
+
+}
+header{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 10px ;
+}
+.logo{
+    cursor: pointer;
+    order: 3;
+    margin-left: auto;
+}

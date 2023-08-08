@@ -1,0 +1,99 @@
+/* css reset  */
+*{margin: 0; padding: 0;
+} 
+body{
+    background-color: rgba(0, 0, 0, 0.329);
+}
+
+/* css variables */
+:root{
+    --navbar-height : 60px ; 
+}
+/* navigation bar  */
+#navbar{
+    /* position:relative ; */
+    margin: -112px 0px;
+        padding: 0px 0px;
+
+    display: flex;
+    text-align: center; 
+    /* background-color: black; */
+}
+#navbar::before{
+    content: "";
+    background-color: black;
+    position: absolute;
+    height: 30%;
+    width: 100%;
+    z-index: -1;
+     opacity: 0.7; 
+}
+
+a{
+    Text-decoration:none;
+    }
+a button{
+    font-weight: bold;    
+    display: flex;
+      font-size: 16px;  
+     align-items: center; 
+     text-decoration: none;
+     
+         padding: 9px 25px;
+         margin: -153px 86%;
+           border-radius: 50px;
+      cursor: pointer; 
+      color: white;
+      border: 2px solid cyan;
+    background-color: #03a9f4;
+    outline: none;
+}
+    
+a button:hover{
+   background-color:#2485d1;
+   color: black;
+
+
+
+}
+/*navigation bar : logo   */
+#logo{
+    margin: 1px 25px;
+}
+#logo img {
+    margin: 83px 2px; 
+        /* filter: invert(); 
+
+    /* height: 20px; */
+    display: block;
+    width: 26%;
+    /* border-radius: 100%;  */
+    
+}
+
+/*navigation bar : list styling */
+ul{
+    display: flex;
+}
+ul li {
+    color: black;
+    list-style: none;
+    font-size: 16px; 
+}
+ul li a {
+    display: block;
+    
+    /* margin: 27px 13px; */
+    margin: 135px 33px;
+color: white;
+border-radius: 20px ;
+text-decoration: none;
+}
+ul li a:hover {
+   color: cyan;
+  
+ }
+ /* home section */
+ 
+
+
